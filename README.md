@@ -9,6 +9,16 @@ Crawl free proxy ip, provide HTTP api for user.
 $ git clone https://github.com/qlee001/ProxySpider.git
 ```
 
+* cd
+```
+$ cd ProxySPider
+```
+
+* set GOPATH
+```
+$ export GOPATH=`pwd`
+```
+
 * goquery to parse html.
 ```
 $ go get github.com/PuerkitoBio/goquery
@@ -16,6 +26,8 @@ $ go get github.com/PuerkitoBio/goquery
 
 * go build or go run directly
 ```
+$ mdkir bin
+$ cd bin
 $ go build proxyspider
 $ ./proxyspider
 ```
